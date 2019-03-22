@@ -9,7 +9,8 @@ video_list = []
 
 #copy paste url
 playlistURL = str(input('Input full YouTube playlist URL here: '))
-#input is playlistID only, not full URL
+#input is full URL only, not playlistID need to trim
+playlistId = playlistURL[playlistURL.find('list=')+5:]
 
 #find list of regions available for YouTube
 regions_url = "https://www.googleapis.com/youtube/v3/i18nRegions?part=snippet&key="+API_KEY
