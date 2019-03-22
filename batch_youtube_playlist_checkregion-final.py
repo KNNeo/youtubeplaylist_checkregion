@@ -1,14 +1,14 @@
 import urllib.request, json, sys, datetime, time
 import numpy as np
 
-API_KEY = "AIzaSyAHKG_tZAI3vgBh6VBV8GG8rCnne87z1-0"
+API_KEY = "YOUR YOUTUBE API V3 KEY HERE"
 non_bmp = dict.fromkeys(range(0x1000,sys.maxunicode+1),0xfffd)
 maxResult = 50
 playlistId = "PL_jWj0Wl8TG-UlSmo4HG3kDtTJYBO4UgB"
 video_list = []
 
 #copy paste url
-playlistURL = playlistId #str(input('Input full YouTube playlist URL here: '))
+playlistURL = str(input('Input full YouTube playlist URL here: '))
 #input is playlistID only, not full URL
 
 #find list of regions available for YouTube
