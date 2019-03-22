@@ -7,4 +7,5 @@
 ###### Improvements: neater printout, export to file, obtain list of active YouTube regions and compare to show only blocked regions
 
 [26/7/2018] initial commit
+
 [19/3/2019] fixed unicode video titles, neater printout of results
